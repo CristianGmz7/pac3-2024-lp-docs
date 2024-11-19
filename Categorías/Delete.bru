@@ -5,9 +5,13 @@ meta {
 }
 
 delete {
-  url: {{PATH}}/categories/bb1e70d2-49eb-44af-df5f-08dca0774fbe
+  url: {{PATH}}/categories/a462d947-99f6-4c5d-18bc-08dcee491f56
   body: none
-  auth: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
 }
 
 body:json {

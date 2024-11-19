@@ -7,10 +7,14 @@ meta {
 get {
   url: {{PATH}}/categories?searchTerm&page=1
   body: none
-  auth: none
+  auth: bearer
 }
 
 query {
   searchTerm: 
   page: 1
+}
+
+auth:bearer {
+  token: {{TOKEN}}
 }

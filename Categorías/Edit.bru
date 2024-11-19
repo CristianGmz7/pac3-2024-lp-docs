@@ -5,9 +5,13 @@ meta {
 }
 
 put {
-  url: {{PATH}}/categories/734ebb61-9e5e-49f8-f415-08dca52b527f
+  url: {{PATH}}/categories/a462d947-99f6-4c5d-18bc-08dcee491f56
   body: json
-  auth: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
 }
 
 body:json {
